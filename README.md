@@ -11,10 +11,11 @@ An AI-powered **Model Context Protocol (MCP)** agent that uses **Groq LLMs** to 
 - **Single Tool Mode** — For lightweight use cases.
 - **Environment Config** — Secure API key handling via `.env` file.
 
+---
 
+## 📂 Project Structure
 
-##  Project Structure
-
+```
 
 mcp-agent/
 ├── src/
@@ -31,6 +32,7 @@ mcp-agent/
 ├── .gitignore                      # Ignore sensitive and build files
 └── README.md                       # Project documentation
 
+````
 
 ## 🛠️ Installation
 
