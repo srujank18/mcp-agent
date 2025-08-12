@@ -1,0 +1,5 @@
+praisonaiagents[llm]
+python-dotenv
+requests
+beautifulsoup4
+mcp
