@@ -1,9 +1,9 @@
 # mcp-agent
 An AI-powered **Model Context Protocol (MCP)** agent that uses **Groq LLMs** to fetch **real-time world news, stock market updates, cryptocurrency prices, and Wikipedia summaries** — all through custom MCP servers and tools.
 
----
 
-## 🚀 Features
+
+##  Features
 
 - **Custom MCP Servers** — Easily extendable with your own Python tools.
 - **Groq LLM Integration** — Fast and efficient inference using the Groq API.
@@ -11,11 +11,10 @@ An AI-powered **Model Context Protocol (MCP)** agent that uses **Groq LLMs** to 
 - **Single Tool Mode** — For lightweight use cases.
 - **Environment Config** — Secure API key handling via `.env` file.
 
----
 
-## 📂 Project Structure
 
-```
+##  Project Structure
+
 
 mcp-agent/
 ├── src/
@@ -32,19 +31,16 @@ mcp-agent/
 ├── .gitignore                      # Ignore sensitive and build files
 └── README.md                       # Project documentation
 
-````
-
----
 
 ## 🛠️ Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/<your-username>/mcp-agent.git
 cd mcp-agent
 ````
 
-### 2️⃣ Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -52,13 +48,13 @@ source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Add your Groq API key
+### Add your Groq API key
 
 Create a `.env` file in the project root:
 
@@ -70,7 +66,7 @@ GROQ_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run Single Tool Agent
 
@@ -115,7 +111,7 @@ MCP server configurations are stored in JSON files:
 
 ---
 
-## 🧩 Creating Your Own Tool
+## Creating Your Own Tool
 
 1. Create a new Python file inside `src/servers/`.
 2. Define your MCP tool logic.
@@ -124,13 +120,13 @@ MCP server configurations are stored in JSON files:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome!
 If you’d like to add new tools or improve the agent, please fork the repo and submit a PR.
@@ -143,9 +139,3 @@ If you’d like to add new tools or improve the agent, please fork the repo and 
 * [Groq LLM API](https://groq.com)
 * [Praison AI Agents](https://pypi.org/project/praisonaiagents/)
 
-```
-
-If you paste this into `README.md` in your repo, GitHub will render it perfectly.  
-
-I also strongly recommend adding a `.gitignore` so `.env` never gets committed again — I can give you one tailored for **Python + MCP projects** next.
-```
